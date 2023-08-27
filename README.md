@@ -5,4 +5,4 @@ _Directly connecting the [Raspberry Pi RP2040](https://www.raspberrypi.com/produ
 [Demo Program](demo/README.md)
 
 I have made a HW implementation of Oliver Schmidt's design with 3x 74LVC245 and 1x 74HC08 and it worked as intended.
-I have uploaded so far the KiCAD project file and gerbers, as well as a picture and a video. I still need to draw the schematic.
+I have uploaded so far the KiCAD project file with schematics and gerbers, as well as a picture and a video.
