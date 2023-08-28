@@ -1,1 +1,1 @@
-Version 1.4 is the innitial design with 3x 74LVC245 and 1x 74HC08 to prove the concept. However it is obsolere as it does not switch off the C800-CFFF memory, which is always available and could cause data bus colisions if used with other cards that uce this memory.
+Version 1.4 is the innitial design with 3x 74LVC245 and 1x 74HC08 to prove the concept. However it is obsolere as it does not switch off the expansion ROM, which is always available and could cause data bus colisions if used with other cards that use this memory.
