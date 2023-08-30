@@ -25,7 +25,7 @@ PIN 13 = IOSelect;
 PIN 14 = DevSel;
 PIN 15 = IOStrobe;
 PIN 16 = IRQ_in;
-PIN 17 = ON74;
+PIN 17 = ExtROM_on;
 
 /** Outputs **/
 
@@ -37,4 +37,4 @@ PIN 23 = IRQ;
 
 IRQ = IRQ_in;
 CLK74 = !(A0 & A1 & A2 & A3 & A4 & A5 & A6 & A7 & A8 & A9 & A10 & !IOStrobe);
-ENBL = (IOSelect & DevSel) & (ON74 # IOStrobe);
+ENBL = (IOSelect & DevSel) & (ExtROM_on # IOStrobe);
