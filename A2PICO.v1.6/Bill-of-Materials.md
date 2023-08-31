@@ -1,7 +1,7 @@
 |Qty|Designator|Item|Package|Description|
 |---|---|---|---|---|
 |1x|C1|6.3V 220uF X5R|0805|Multilayer Ceramic Capacitor|
-|9x|C2-C6|16V 100nF X7R|0402|Multilayer Ceramic Capacitor|
+|9x|C2-C6|50V 100nF X7R|0402|Multilayer Ceramic Capacitor|
 |1x|D1|SS14F|SMAF|40V 550mV @ 1A Shottkey Barrier Diode|
 |1x|U1|Pico-W|Module|Raspberry Pi Pico or Pico-W module (no pins)|
 |3x|U2-U4|SN74LVC245A|PDIP-20|Texas Instruments SN74LVC245A Octal Bus Transceiver With 3-State Outputs|
