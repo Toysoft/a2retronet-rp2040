@@ -1,5 +1,5 @@
-|Qty|Designator|Item|Package|Description|
-|---|---|---|---|---|
+|Qty|Designator|Item|Package|Description|Supplier|
+|---|---|---|---|---|---|
 |1x|C1|6.3V 220uF X5R|0805|Multilayer Ceramic Capacitor|
 |9x|C2-C6|50V 100nF X7R|0402|Multilayer Ceramic Capacitor|
 |1x|D1|SS14F|SMAF|40V 550mV @ 1A Shottkey Barrier Diode|
