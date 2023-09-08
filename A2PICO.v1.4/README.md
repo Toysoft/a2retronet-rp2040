@@ -4,8 +4,8 @@ The pinout is as follows:
 
 | GPIO    | Usage     |
 |:--------|:----------|
-| 0       | (UART TX) |
-| 1       | (UART RX) |
+| 0       |  UART TX  |
+| 1       |  UART RX  |
 | 2 - 13  | A0 - A11  |
 | 14      | R/W       |
 | 15 - 22 | D0 - D7   |
