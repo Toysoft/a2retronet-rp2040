@@ -25,7 +25,7 @@ The pinout is as follows:
 | 27      | IRQ       |
 | 28      | RES       |
 
-Version "-" does not have support for the ExtROM.
+Version "n" does not have support for the ExtROM.
 
 The pinout of the "n" versions is as follows:
 
