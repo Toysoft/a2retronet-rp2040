@@ -12,7 +12,7 @@ Version 1.5 switches off the Expansion ROM ($C800-$CFFF) when $CFFF is accessed 
 
 Version 1.6 combines 3 of the logic chips into a PLD. 74HC08, 74LS133 and 74LS02 are replaced by ATF22V10.
 
-The pinout is as follows:
+The RPI usage is as follows:
 
 | GPIO    | Usage     |
 |:--------|:----------|
@@ -27,7 +27,7 @@ The pinout is as follows:
 
 Version "n" has support for a MicroSD card and is without the ExtROM capability.
 
-The pinout of the "n" versions is as follows:
+The RPI usage of the "n" versions is as follows:
 
 | GPIO    | Usage     |
 |:--------|:----------|
