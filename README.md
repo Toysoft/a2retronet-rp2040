@@ -25,7 +25,7 @@ The pinout is as follows:
 | 27      | IRQ       |
 | 28      | RES       |
 
-Version "n" does not have support for the ExtROM.
+Version "n" has support for a MicroSD card and is without the ExtROM capability.
 
 The pinout of the "n" versions is as follows:
 
