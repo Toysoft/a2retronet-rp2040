@@ -1,6 +1,6 @@
 Version 1.4 is the innitial design with 3x 74LVC245 and 1x 74HC08 to prove the concept. However it is obsolete as it does not switch off the Expansion ROM ($C800-$CFFF), which is always available and could cause data bus colisions if used with other cards that use this memory space.
 
-The pinout is as follows:
+The RPI usage is as follows:
 
 | GPIO    | Usage     |
 |:--------|:----------|
