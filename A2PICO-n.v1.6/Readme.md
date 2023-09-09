@@ -1,4 +1,4 @@
-This is a HW implementation with support for a MicroSD card with **no** ExtROM support.
+This is a HW implementation with support for a MicroSD card and **no** ExtROM capability.
 
 The pinout of the "n" versions is as follows:
 
