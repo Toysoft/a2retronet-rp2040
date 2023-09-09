@@ -25,7 +25,7 @@ The RPI usage is as follows:
 | 27      | IRQ       |
 | 28      | RES       |
 
-Version "n" has support for a MicroSD card and is wit **no** ExtROM capability.
+Version "n" has support for a MicroSD card with **no** ExtROM capability.
 
 The RPI usage of the "n" versions is as follows:
 
