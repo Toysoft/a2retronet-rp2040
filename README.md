@@ -10,7 +10,7 @@ Version 1.4 is the innitial design with 3x 74LVC245 and 1x 74HC08 to prove the c
 
 Version 1.5 switches off the Expansion ROM ($C800-$CFFF) when $CFFF is accessed or when reset is issued, and switches it back on again when the slot memory is accessed (IOSelect).
 
-Version 1.6 combines 3 of the logic chips into a PLD. 74HC08, 74LS133 and 74LS02 are replaced by ATF22V10.
+Version 1.6 combines 3 of the logic chips into a PLD. 74LS08, 74LS133 and 74LS02 are replaced by ATF22V10.
 
 The RPI usage is as follows:
 
