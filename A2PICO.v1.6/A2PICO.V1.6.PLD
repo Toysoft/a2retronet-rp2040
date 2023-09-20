@@ -8,6 +8,9 @@ Assembly None;
 Location None;
 Device   g22v10;
 
+/**    This configuration supports switching off of ExtROM by accessing $CFFF   **/
+/**    which drives the data line and delivers the actual byte of $CFFF.        **/
+
 /** Inputs **/
 
 PIN 1 = A0;
