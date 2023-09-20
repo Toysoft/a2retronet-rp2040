@@ -24,22 +24,33 @@ PIN 8 = A7;
 PIN 9 = A8;
 PIN 10 = A9;
 PIN 11 = A10;
-PIN 13 = IOSelect;
-PIN 14 = DevSel;
-PIN 15 = IOStrobe;
+PIN 13 = !IOSelect;
+PIN 14 = !DevSel;
+PIN 15 = !IOStrobe;
 PIN 16 = IRQ_in;
-PIN 17 = ExtROM_on;
+PIN 17 = !ExtROM_on;
 PIN 18 = SET74;
 
 /** Outputs **/
 
 PIN 21 = CLK74;
-PIN 22 = ENBL;
+PIN 22 = !ENBL;
 PIN 23 = IRQ;
+
+/**  Logic Overflow  **/
+
+PIN 19          = ExtEnable;    /* Combinatorial                */
+PIN 20          = ExtDisable;   /* Combinatorial                */
+
+/* Implement an SR Latch */
+
+ExtDisable = !(ExtEnable # IOSelect);
+ExtEnable = !(ExtDisable # ExtROM_on # (IOStrobe & [A10..0]:'b'11111111111));
 
 /** Logic Equations **/
 
 IRQ = IRQ_in;
 SET74 = IOSelect; /* change this to DevSel if ExtROM needs to be activeted by DevSel */
-CLK74 = A0 & A1 & A2 & A3 & A4 & A5 & A6 & A7 & A8 & A9 & A10 & !IOStrobe;
-ENBL = IOSelect & DevSel & (ExtROM_on # IOStrobe);
+CLK74 = !(A0 & A1 & A2 & A3 & A4 & A5 & A6 & A7 & A8 & A9 & A10 & !IOStrobe);
+ENBL = IOSelect # DevSel # (ExtEnable & IOStrobe);
+
