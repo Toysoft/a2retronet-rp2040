@@ -21,6 +21,7 @@ There is a suggested driver for a ProDOS block device in the file Firmware files
 The Read/Write buffer is the 16-byte address memory C0NX, N=slot+6. The volume, 512-byte Pro-DOS block selecttion and the 16-byte offsett within the block are done by the following writes:
 
 C600 - volume $00(D1) or $80(D2)
+
 C601 - low byte block
 
 C602 - high byte block
