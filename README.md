@@ -54,4 +54,4 @@ C602 - high byte block
 
 C603 - 16-byte offset within block
 
-There is a need for development of a firmware for the RPI Pico to drive the IO with the A2 and the MicroSD card.
+However, there is a current need for development of a firmware for this "n" version for the RPI Pico to drive the IO with the A2 and the MicroSD card.
